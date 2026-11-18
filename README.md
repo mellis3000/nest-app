@@ -32,3 +32,16 @@ The API listens on http://localhost:3000; set `PORT` to change it.
 ```bash
 npm test
 ```
+
+## How it was built
+
+I built this with Claude Code. [session-log-summary.md](session-log-summary.md) describes how I went about it, step by step.
+
+## Future improvements
+
+- Implement proper authentication and authorization
+- Writing tests (I just let Claude make happy path-tests in this version)
+- Using key store for API key(s)
+- Error handling
+- Observability
+- Rate limiting
